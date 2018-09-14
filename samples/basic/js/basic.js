@@ -68,7 +68,7 @@ function loadLargePage(page, pageElement) {
 
 	// Loadnew page
 	
-	img.attr('src', 'pages/' +  page + '-large.png');
+	img.attr('src', 'pages/' +  page + '-large.jpg');
 }
 
 
@@ -81,7 +81,7 @@ function loadSmallPage(page, pageElement) {
 	img.unbind('load');
 	// Loadnew page
 
-	img.attr('src', 'pages/' +  page + '.png');
+	img.attr('src', 'pages/' +  page + '.jpg');
 }
 
 
